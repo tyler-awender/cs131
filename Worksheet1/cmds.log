@@ -1,0 +1,140 @@
+    1  passwd
+    2  echo $Shell
+    3  pwd
+    4  echo $Shell
+    5  echo $shell
+    6  clear
+    7  ls
+    8  pwd
+    9  cd ..
+   10  ls
+   11  cd tylersp24
+   12  ls
+   13  cd stevenf23
+   14  cd rickysp24
+   15  cd tylersp24
+   16  ls
+   17  clear
+   18  wget www.github.com
+   19  ls
+   20  cd ..
+   21  pwd
+   22  cd tylersp24
+   23  pwd /
+   24  ls
+   25  pwd
+   26  cd /
+   27  pwd
+   28  ls
+   29  cd desktop
+   30  pwd
+   31  cd root
+   32  cd home
+   33  ls
+   34  cd tylersp24
+   35  ls
+   36  cd /
+   37  pwd
+   38  ls
+   39  cd home
+   40  ls
+   41  cd ~
+   42  ls
+   43  cd /
+   44  cd
+   45  ls
+   46  cd /
+   47  ls
+   48  cd
+   49  whoami
+   50  cd ~/desktop
+   51  ls
+   52  cd /
+   53  ls
+   54  cd dev
+   55  ls
+   56  cd
+   57  ls
+   58  clear
+   59  cd /
+   60  ls
+   61  cd home
+   62  ls
+   63  cd tylersp24
+   64  ls
+   65  cd
+   66  ls
+   67  pwd
+   68  cd /mnt
+   69  ls
+   70  cd scratch
+   71  ls
+   72  cd
+   73  passwd
+   74  ls
+   75  echo "hello"
+   76  echo > index.html
+   77  ls
+   78  man wget
+   79  clear
+   80  ls
+   81  mkdir cs131
+   82  ls
+   83  rm -r cs131
+   84  ls
+   85  mkdir repo
+   86  ls
+   87  cd repo
+   88  rm repo 
+   89  cd ..
+   90  rm repo
+   91  rm -r repo
+   92  ls
+   93  mkdir cs131
+   94  cd cs131
+   95  mkdir Worksheet 1
+   96  rm -r Worksheet 1
+   97  ls
+   98  mkdir Worksheet1
+   99  cd Worksheet 1
+  100  cd Worksheet1
+  101  cd
+  102  ls
+  103  rm -r cs131
+  104  ls
+  105  rm -r index.html
+  106  ls
+  107  wget www.github.com
+  108  ls
+  109  git init
+  110  ls
+  111  cd /mnt/scratch/FA23_CS131_Ashish/tylersp24/.git/
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd .git
+  116  rm -r .git
+  117  git init cs131
+  118  ls
+  119  rm cs131
+  120  rm -r cs131
+  121  ls
+  122  cd
+  123  git init cs131
+  124  ls
+  125  cd cs131
+  126  ls
+  127  ls -la
+  128  touch test.txt
+  129  ls
+  130  git status
+  131  mkdir Worksheet 1
+  132  ls
+  133  rm -r Worksheet
+  134  rm -r 1
+  135  ls
+  136  mkdir Worksheet1
+  137  ls
+  138  cd Worksheet 1
+  139  cd Worksheet1
+  140  history > cmds.log

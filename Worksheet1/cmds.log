@@ -138,3 +138,132 @@
   138  cd Worksheet 1
   139  cd Worksheet1
   140  history > cmds.log
+  141  ls
+  142  cat cmds.log
+  143  ls
+  144  cd ..
+  145  ls
+  146  git add Worksheet1
+  147  git status
+  148  git commit -m "Worksheet1"
+  149  git config --global user.email "tyler.awender@sjsu.edu"
+  150  git config --global user.name "Tyler Awender"
+  151  git commit -m "Worksheet1"
+  152  git status
+  153  git remote add origin git@github.com:tyler-awender/cs131.git
+  154  git push origin main
+  155  git push origin master
+  156  git push -u origin master
+  157  git remote add origin https://github.com/tyler-awender/cs131.git
+  158  git remote set-url https://github.com/tyler-awender/cs131.git
+  159  git remote set-url origin https://github.com/tyler-awender/cs131.git
+  160  git push origin master
+  161  ls
+  162  cd cs131
+  163  ls
+  164  cat Worksheet 1
+  165  cd Worksheet 1
+  166  cd Worksheet1
+  167  ls
+  168  cat cmds.log
+  169  man cat
+  170  ls
+  171  head cmds.log 
+  172  man more
+  173  ls
+  174  cd ..
+  175  ls
+  176  rm test.txt
+  177  ls
+  178  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  179  ls
+  180  head spotify-2023.csv
+  181  more
+  182  --help
+  183  more --help
+  184  more spotify-2023.csv
+  185  less spotify-2023.csv 
+  186  clear
+  187  ls
+  188  git status
+  189  rm spotify-2023.csv
+  190  ls
+  191  cd ..
+  192  ls
+  193  git status
+  194  clear
+  195  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  196  head -1
+  197  head spotify-2023.csv -2
+  198  head 2 spotify-2023.csv 
+  199  man head
+  200  head -n 5 spotify-2023.csv 
+  201  man tail
+  202  vim spotify-2023.csv
+  203  ls
+  204  nano spotify-2023.csv 
+  205  nano spotify-2023.csv
+  206  head spotify-2023.csv 
+  207  nano spotify-2023.csv
+  208  nano spotify-2023.csv 
+  209  vi spotify-2023.csv
+  210  vi spotify-2023.csv 
+  211  head spotify-2023.csv 
+  212  vim spotify-2023.csv
+  213  vi spotify-2023.csv 
+  214  head spotify-2023.csv 
+  215  vi spotify-2023.csv
+  216  ls
+  217  echo #SHELL
+  218  grep man
+  219  whoami
+  220  man ls
+  221  ls -l
+  222  man git
+  223  ls
+  224  clear
+  225  cd cs 131
+  226  cd cs131
+  227  ls
+  228  mkdir Worksheet2
+  229  ls
+  230  cd Worksheet2
+  231  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  232  ls
+  233  head 'Global YouTube Statistics.csv'
+  234  man grep
+  235  grep 'United States' 'Global YouTube Statistics.csv'
+  236  touch counts.txt
+  237  ls
+  238  grep "music" 'Global YouTube Statistics.csv'
+  239  grep "Music" 'Global YouTube Statistics.csv'
+  240  grep ",Music," 'Global YouTube Statistics.csv' 
+  241  ls
+  242  grep ",Music," 'Global YouTube Statistics.csv' | wc
+  243  grep ",Music," 'Global YouTube Statistics.csv' | wc -l > counts.txt
+  244  grep ",Music," 'Global YouTube Statistics.csv' | wc -w >> counts.txt
+  245  nano counts.txt
+  246  cat counts.txt 
+  247  grep ",Music," 'Global YouTube Statistics.csv | wc
+  248  a
+  249  grep ",Music," 'Global YouTube Statistics.csv | wc
+  250  ls
+  251  cd cs131
+  252  cs Wor
+  253  cs Worksheet
+  254  cs Worksheet2
+  255  ls
+  256  cd Worksheet 2
+  257  cd Worksheet2
+  258  ls
+  259  grep ",Music," 'Global YouTube Statistics.csv | wc -l
+  260  grep ",Music," 'Global YouTube Statistics.csv' | wc
+  261  grep ",Music," 'Global YouTube Statistics.csv' | wc -l
+  262  nano counts.txt
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd Worksheet1
+  267  ls
+  268  history
+  269  history > cmds.log

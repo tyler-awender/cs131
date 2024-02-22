@@ -1,0 +1,5 @@
+word count:
+236
+
+line count:
+824

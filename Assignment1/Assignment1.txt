@@ -1,0 +1,55 @@
+Question 1
+I used mkdir command to make the directory
+
+Question 2 output
+I used echo $SHELL
+/bin/bash
+
+Question 2 output
+I used echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/tylersp24
+
+Question 3 output
+I used id tylersp24
+my UID is 1170 and my groups are tylersp24 and S77
+uid=1170(tylersp24) gid=1170(tylersp24) groups=1170(tylersp24),77(S77)
+
+Question 4
+I can cd, ls, ls -l, but not create files under the directory
+
+Question 6
+Output:
+              total        used        free      shared  buff/cache   available
+Mem:          71367       33005       19054        3539       19308       33364
+Swap:          4119           0        4119
+
+The total amount of memory is 71367 mebibytes
+
+Question 9
+Output:
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+The OS version is 8.6
+os-release under etc contains the OS version
+
+Question 10
+Output:
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+
+All user permissions are r, w, and x, or read, write, and execute

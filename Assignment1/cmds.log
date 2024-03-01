@@ -1,0 +1,62 @@
+    QUESTION 1
+    1  mkdir Assignment1
+    2  ls
+    3  cd Assignment1
+    4  touch cmds.log
+    5  touch Assignment1.txt
+    6  ls
+    7  history >> cmds.log
+QUESTION 2
+    1 echo $SHELL
+QUESTION 2 
+    1  echo $HOME
+    2  history >> cmds.log
+QUESTION 3
+    1  id
+    2  history >> cmds.log
+QUESTION 4
+    1  pwd
+    2  mkdir myDir
+    3  ls
+    4  history
+    5  chmod u-w
+    6  chmod u-w myDir
+    7  ls
+    8  cd myDir
+    9  touch test.txt
+   10  cd ..
+   11  ls
+   12  ls -l
+   13  ls
+   14  history >> cmds.log
+QUESTION 5
+
+    1  mkdir myDir2
+    2  mkdir myDir3
+
+QUESTION 6
+    1  cd cs131/Assignment1/myDir2
+    2  touch myFile.txt
+    3  mv myFile.txt cs131/Assignment1/myDir3
+    4  ls
+    5  mv myFile.txt Assignment1/myDir3
+    6  pwd
+    7  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/tylersp24/cs131/Assignment1/myDir3
+    8  ls
+    9  cd ..
+   10  cd myDir3
+   11  ls
+   12  cd ..
+   13  history >> cmds.log
+
+QUESTION 6
+    1  free -m
+    2  history >> cmds.log
+
+Question 9
+    1  cat /etc/os-release
+    2  history >> cmds.log
+
+Question 10
+    1  ls -l /etc/os-release
+    2  history >> cmds.log

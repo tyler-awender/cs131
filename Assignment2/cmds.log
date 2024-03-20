@@ -1,0 +1,55 @@
+1)
+    1  /etc -type f > one.txt 2> two.txt
+    2  ls
+    3  history >> cmds.log
+
+2)
+1  cut -d -f 21, 22 'Global YouTube Statistics.csv' |sort|uniq -c| sort -nr|head -n 3|
+    2  cut ',' -d -f 21, 22 'Global YouTube Statistics.csv' |sort|uniq -c| sort -nr|head -n 3|
+    3  cut -d 'd' -f 21, 22 'Global YouTube Statistics.csv' |sort|uniq -c| sort -nr|head -n 3|
+    4  cut -d ',' -f 21, 22 'Global YouTube Statistics.csv' |sort|uniq -c| sort -nr|head -n 3|
+    5  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' |sort|uniq -c| sort -nr|head -n 3|
+    6  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort|uniq -c | sort -nr | head -n 3|
+    7  cut -d',' -f 21,22 'Global YouTube Statistics.csv' | sort|uniq -c | sort -nr | head -n 3|
+    8  cut -d',' -f 21,22 'Global YouTube Statistics.csv' | sort|uniq -c | sort -nr | head -n 3
+    9  history >> cmds.log
+    1  cut -d ',' -f 21, 22 'Global YouTube Statistics.csv'
+    2  man cut
+    3  cut -d ',' -f 21, 22 'Global YouTube Statistics.csv' | sort
+    4  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort
+    5  man uniq
+    6  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -d
+    7  man cut
+    8  man uniq
+    9  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -c
+   10  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort
+   11  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort | tail
+   12  man tail
+   13  cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort | tail -n 3
+   14  9 May,12
+   15        8 Sep,2
+   16  history >> cmds.log
+
+3)
+    1  ps -u tylersp24
+    2  history >> cmds.log
+
+4) 
+    1  ps -u tylersp24
+    2  history >> cmds.log
+    3  nano cmds.log 
+    4  ps -u tylersp24
+    5  history >> cmds.log 
+
+5) 
+    1  ps -u tylersp24
+    2  history >> cmds.log
+    3  nano cmds.log 
+    4  ps -u tylersp24
+    5  history >> cmds.log 
+    6  nano cmds.log 
+    7  nano Assignment2.txt 
+    8  ps -u tylersp24
+    9  nano Assignment2.txt 
+   10  nano cmds.log 
+   11  history >> cmds.log

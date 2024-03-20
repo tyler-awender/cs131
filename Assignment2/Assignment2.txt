@@ -1,0 +1,62 @@
+1) this command takes the output of /etc and puts the stdout to one.txt and
+   stderr to two.txt
+   I noticed that one.txt had all files in etc/ and the errors were appended
+   to two.txt.
+
+2) The top 3 dates with the most number of Youtube channels created from the dataset is
+
+     3) Channels created: 8 on Nov,21
+     2) Channels created: 8 on Sep,2
+     1) Channels created: 9 on May,12
+
+   I used this command to find the top 3: "cut -d ',' -f 21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort | tail -n 3"
+   cut -d ',' sets a comma as a delimiter, -f 21,22 applies the cut to sections 21 and 22, which are the month and year. I then sort the dataset which shows repeated lines. I then
+   use uniq -c, which counts all duplicate lines, which shows how many channels were created on those dates. I then sort it, which shows the channels in lowest to greatest order,
+   and I apply tail -n 3 which shows the bottom 3 dates, which are the dates with the most channels created.   
+   
+   Non-formatted output:
+      8 Nov,21
+      8 Sep,2
+      9 May,12
+
+3) Command: ps -u tylersp24
+
+  Output:
+  PID TTY          TIME CMD
+  3491745 ?        00:00:06 systemd
+  3491748 ?        00:00:00 (sd-pam)
+  3491754 ?        00:00:00 sshd
+  3491755 pts/4    00:00:00 bash
+  3538207 pts/4    00:00:00 ps
+
+
+4) I noticed that a vi and another bash/sshd  process was added to the process list. The ID was 3539784
+   Output: PID TTY          TIME CMD
+3491745 ?        00:00:06 systemd
+3491748 ?        00:00:00 (sd-pam)
+3491754 ?        00:00:00 sshd
+3491755 pts/4    00:00:00 bash
+3539654 ?        00:00:00 sshd
+3539657 pts/34   00:00:00 bash
+3539784 pts/34   00:00:00 vim
+3539960 pts/4    00:00:00 ps
+
+
+When I quit vi, I noticed that the vi process disappeared, but bash and sshd stayed int the list.
+This is because I closed vi but not the terminal window, meaning bash and ssh was running,
+which caused the duplicate bash and sshd processes to keep running.
+   Output 2:
+PID TTY          TIME CMD
+3491745 ?        00:00:06 systemd
+3491748 ?        00:00:00 (sd-pam)
+3491754 ?        00:00:00 sshd
+3491755 pts/4    00:00:00 bash
+3539654 ?        00:00:00 sshd
+3539657 pts/34   00:00:00 bash
+3542989 pts/4    00:00:00 ps
+
+5) init is the initial process when booting up a linux system. Init executes getty/sshd per terminal and sets up a login. It essentially initializes the system and services for the user.
+   Process id: 3491745
+   I used ps -u tylersp24 to find the init (systemd) PID.
+
+6) ps aux lists all processes with the a, u, and x flags. It shows all processes (not just the terminals), in a user oriented format which shows who owns the processes, and processes not attached to terminal.

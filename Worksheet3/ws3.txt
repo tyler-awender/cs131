@@ -1,0 +1,45 @@
+Task 1: I ended up trying to use awk to sort the list. I did it properly but could not figure out how to sort by top 3 in each country. Below is just a list
+of USA, India, and UK top earners. The top 3 earners from each country were DaFuq?!Boom!, T-Series, and Woddy & Kleiny
+Output:
+USA : DaFuq!?Boom!, $9200000
+India: T-Series, $9000000
+USA : Cocomelon - Nursery Rhymes, $7900000
+India: SET India, $7300000
+India: StarPlus, $6700000
+India: Sony SAB, $6600000
+USA : ViralHog, $5500000
+USA : MrBeast, $5400000
+USA : Filaretiki, $4800000
+India: Colors TV, $4800000
+USA : LeoNata Family, $4700000
+USA : Alan Chikin Chow, $4200000
+USA : _vector_, $3600000
+USA : Yoeslan, $3500000
+India: Infobells - Hindi, $3300000
+India: Zee Music Company, $3200000
+USA : That Little Puff, $3000000
+India: Ishaan Ali 11, $2900000
+USA : Topper Guild, $2700000
+USA : Masha and The Bear, $2700000
+India: Heroindori, $1600000
+USA : Prime Video India, $1300000
+India: Zee TV, $6800000
+India: Sun TV, $3900000
+India: Vijay Television, $3600000
+USA : LankyBox, $3300000
+India: Goldmines Gaane Sune Ansune, $3300000
+USA : WWE, $2900000
+USA : Vlad and Niki, $2300000
+India: Dangal TV Channel, $2200000
+India: Saregama Music, $2100000
+USA : Taylor Swift, $2100000
+India: YRF, $2000000
+USA : Jake Fellman, $2000000
+UK : Woody & Kleiny, $2000000
+
+Task 2:
+
+
+For some reason, there was no output. I couldn't figure out the issue with my script:
+
+awk -F ',' 'NR>1 && ($6=="Sports" || $6=="Education" || $6=="Entertainment") {print $0}' 'Global YouTube Statistics.csv' | sort -t ',' -nrk 3 | awk -F ',' '{if ($6=="Sports") {print "Sports : " $2 ", #" $3} else if ($6=="Education") {print "Education : " $2 ", #" $3} else if ($6=="Entertainment") {print "Entertainment: " $2 ", #" $3}}'

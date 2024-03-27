@@ -1,0 +1,16 @@
+Task 1
+    1  awk -F',' 'NR>1 && ($8=="United States" || $8=='United Kingdom' || $8=='India') {print $0}
+    2  awk -F',' 'NR>1 && ($8=="United States" || $8=='United Kingdom' || $8=='India') {print $0}'
+    3  awk -F',' 'NR>1 && ($8=="United States" || $8=='United Kingdom' || $8=='India') {print $0}' 'Global YouTube Statistics.csv'
+    4  awk -F ',' 'NR>1 && ($8=="United States" || $8=="United Kingdom" || $8=="India") {print $0}' 'Global YouTube Statistics.csv'
+    5  awk -F ',' 'NR>1 && ($8=="United States" || $8=='United Kingdom' || $8=='India') {print $0}' 'Global YouTube Statistics.csv'
+    6  awk -F ',' 'NR>1 && ($8=="United States" || $8=="United Kingdom" || $8=="India") {print $0}' 'Global YouTube Statistics.csv'
+    7  awk -F ',' 'NR>1 && ($8=="United States" || $8=="United Kingdom" || $8=="India") {print $0}' 'Global YouTube Statistics.csv' | sort -t ',' -nrk 16
+    8  awk -F ',' 'NR>1 && ($8=="United States" || $8=="United Kingdom" || $8=="India") {print $0}' 'Global YouTube Statistics.csv' | sort -t ',' -nrk 16 | awk -F ',' '{if ($8=="United States") {print "USA : " $2 ", $" $16} else if ($8=="United Kingdom") {print "UK : " $2 ", $" $16} else if ($8=="India") {print "India: " $2 ", $" $16}}'
+    9  India: T-Series, $9000000
+   10  USA : Cocomelon - Nursery Rhymes, $7900000
+   11  history >> cmds.log
+
+Task 2
+    1  awk -F ',' 'NR>1 && ($6=="Sports" || $6=="Education" || $6=="Entertainment") {print $0}' 'Global YouTube Statistics.csv' | sort -t ',' -nrk 3 | awk -F ',' '{if ($6=="Sports") {print "Sports : " $2 ", #" $3} else if ($6=="Education") {print "Education : " $2 ", #" $3} else if ($6=="Entertainment") {print "Entertainment: " $2 ", #" $3}}' 
+    2  history >> cmds.log

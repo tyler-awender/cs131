@@ -1,0 +1,534 @@
+1)
+
+Script started on 2024-04-09 21:47:00-04:00
+bash-4.4$ j[Knano b[K/.[K[K.bashrc
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.8                       .bashrc                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>bash-4.4$ nano ~/.bashrc
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.8   /mnt/scratch/FA23_CS131_Ashish/tylersp24/.bashrc             [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3da[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25l=[?12l[?25h[?25l;[?12l[?25h[?25l	 	[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25l'[?12l[?25h[?25l[4d[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[22d[K[4;7H[?12l[?25h[?25lw[?12l[?25h[?25l=[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l|[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25ll[?12l[?25h[?25l'[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: /mnt/scratch/FA23_CS131_Ashish/tylersp24/.bashrc            [22;1H(B[m[22;69H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 2 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4;24H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>bash-4.4$ l
+bash: l: command not found
+bash-4.4$ soiu[K[Kurce ~/.bashrc
+bash-4.4$ source ~/.bashrc[C[C[C[C[C[C[C[C[C[Cl[K
+total 0
+-rw-rw-r-- 1 tylersp24 tylersp24 0 Apr  9 21:47 ws4.txt
+bash-4.4$ w
+2
+bash-4.4$ exit
+
+Script done on 2024-04-09 21:50:07-04:00
+
+
+2)
+
+Script started on 2024-04-10 15:13:50-04:00
+bash-4.4$ ls
+subscribers  ws4.txt  ws42.txt
+bash-4.4$ cd subsr[Kcribers
+bash-4.4$ ls
+'Global YouTube Statistics.csv'
+bash-4.4$ [Kbash-4.4$ grep "United[K[K[K[K[KSA [K"[K[K[Knited States "[K[K" "Global YouTube Statistics.csv" [K | a[Kcut -d ',' -f 3 > Subsc[K[K[K[K[Kunited[K[K[K[K[K[KUnited_States.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   United_States.txt
+bash-4.4$ cat united[K[K[K[K[K[KUnited_States.txt [K
+170000000
+166000000
+162000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+56900000
+56400000
+52900000
+52700000
+52200000
+47900000
+46600000
+44200000
+42400000
+42400000
+40900000
+39200000
+38600000
+38200000
+38200000
+38000000
+37600000
+36700000
+36600000
+36300000
+35200000
+35200000
+34900000
+33700000
+33600000
+32800000
+32700000
+31700000
+31700000
+31600000
+31600000
+31200000
+30700000
+30700000
+30400000
+30200000
+30100000
+29600000
+29200000
+28400000
+28200000
+27500000
+27500000
+27300000
+27000000
+26700000
+26700000
+26500000
+26400000
+26200000
+26100000
+25700000
+25700000
+25600000
+25500000
+25400000
+25200000
+25100000
+24800000
+24700000
+24600000
+24600000
+24400000
+24100000
+24100000
+24100000
+24000000
+23900000
+23900000
+23900000
+23800000
+23800000
+23700000
+23700000
+23600000
+23600000
+23300000
+23200000
+23200000
+23100000
+23100000
+22900000
+22700000
+22600000
+22600000
+22600000
+22500000
+22500000
+22300000
+22200000
+22000000
+22000000
+21900000
+21900000
+21900000
+21800000
+21800000
+21600000
+21500000
+21300000
+21300000
+21300000
+21100000
+21000000
+21000000
+21000000
+20900000
+20900000
+20900000
+20700000
+20700000
+20700000
+20500000
+20400000
+20200000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20000000
+20000000
+19800000
+19800000
+19700000
+19700000
+19600000
+19600000
+19600000
+19600000
+19200000
+19100000
+19100000
+18800000
+18800000
+18600000
+18400000
+18400000
+18300000
+18300000
+18100000
+18100000
+18000000
+18000000
+18000000
+17900000
+17900000
+17900000
+17900000
+17900000
+17900000
+17800000
+17700000
+17500000
+17400000
+17300000
+17200000
+17100000
+17000000
+16900000
+16900000
+16900000
+16900000
+16700000
+16700000
+16600000
+16500000
+16500000
+16400000
+16400000
+16300000
+16300000
+16300000
+16300000
+16300000
+16200000
+16200000
+16200000
+16100000
+16100000
+16100000
+15900000
+15900000
+15900000
+15800000
+15700000
+15600000
+15500000
+15500000
+15400000
+15400000
+15400000
+15300000
+15200000
+15100000
+15100000
+15100000
+15000000
+15000000
+15000000
+15000000
+15000000
+14900000
+14900000
+14900000
+14800000
+14800000
+14800000
+14800000
+14800000
+14800000
+14700000
+14700000
+14700000
+14700000
+14700000
+14700000
+14600000
+14600000
+14600000
+14600000
+14500000
+14500000
+14500000
+14500000
+14500000
+14500000
+14400000
+14400000
+14400000
+14400000
+14400000
+14400000
+14300000
+14300000
+14200000
+14100000
+14100000
+14000000
+13900000
+13900000
+13900000
+13900000
+13800000
+13600000
+13600000
+13600000
+13500000
+13500000
+13400000
+13400000
+13400000
+13400000
+13400000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13200000
+13200000
+13100000
+13100000
+13100000
+13000000
+13000000
+12900000
+12900000
+12900000
+12800000
+12800000
+12700000
+12700000
+12700000
+12700000
+12700000
+12600000
+12600000
+12500000
+12500000
+12500000
+12500000
+12400000
+12400000
+12400000
+12400000
+12400000
+12400000
+Binary file Global YouTube Statistics.csv matches
+bash-4.4$ cat United_States.txt[C[C[C[C[C[C[C[C[C[Cls[Kgrep "United States" "Global YouTube Statistics.csv" |ccut -d ',' -f 3 > United_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cu[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d '[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ',[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ','[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ',' [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ',' -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ',' -f[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" "Global YouTube Statistics.csv" |cut -d ',' -f [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI" "Global YouTube Statistics.csv" |cut -d ',' -f[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn" "Global YouTube Statistics.csv" |cut -d ',' -[1@f[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd" "Global YouTube Statistics.csv" |cut -d ',' [1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci" "Global YouTube Statistics.csv" |cut -d ','[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca" "Global YouTube Statistics.csv" |cut -d ',[1@'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[Cgrep "India" "Global YouTube Statistics.csv" |cut -d ',,' -f 3 > United_States.txt[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt .txtI.txtn.txtd.txti.txta.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt
+bash-4.4$ cat ind[K[K[KIndia.txt 
+245000000
+159000000
+96700000
+83000000
+70500000
+65900000
+65600000
+64600000
+61000000
+59300000
+58000000
+57600000
+57200000
+54600000
+53300000
+47400000
+46600000
+45500000
+42500000
+41400000
+39200000
+38300000
+38200000
+37200000
+37000000
+36600000
+35500000
+35500000
+35400000
+34300000
+34000000
+33500000
+33500000
+33400000
+32700000
+32000000
+31700000
+31700000
+30700000
+30500000
+29800000
+28900000
+28500000
+28400000
+28300000
+28200000
+27300000
+27100000
+26400000
+26300000
+25200000
+24300000
+24200000
+23400000
+23100000
+23100000
+23000000
+23000000
+22900000
+22600000
+22600000
+22500000
+21800000
+21600000
+21400000
+21300000
+21300000
+21300000
+20900000
+20400000
+20400000
+20200000
+20000000
+19500000
+19400000
+19400000
+19300000
+19200000
+19100000
+19000000
+18800000
+18600000
+17800000
+17700000
+17500000
+17500000
+17500000
+17300000
+17300000
+17000000
+16900000
+16900000
+16600000
+16600000
+16600000
+16500000
+16300000
+16000000
+15800000
+15800000
+15700000
+15700000
+15700000
+15700000
+15700000
+15500000
+15500000
+15400000
+15300000
+15300000
+15200000
+15200000
+15200000
+15200000
+15200000
+15200000
+15000000
+15000000
+15000000
+15000000
+15000000
+14700000
+14700000
+14600000
+14500000
+14500000
+14500000
+14400000
+14400000
+14400000
+14400000
+14200000
+14200000
+14200000
+14100000
+14000000
+14000000
+13900000
+13800000
+13800000
+13700000
+13700000
+13700000
+13700000
+13700000
+13600000
+13500000
+13500000
+13500000
+13400000
+13400000
+13400000
+13300000
+13300000
+13200000
+13200000
+13200000
+13100000
+13000000
+12800000
+12800000
+12700000
+12500000
+12500000
+12500000
+12500000
+12500000
+12500000
+12500000
+12400000
+12400000
+12400000
+12400000
+12300000
+12300000
+bash-4.4$ U[Kusa[K[K[Kusa_mean=#[K$(awk '{ total += #1[K[K$1; count++} END Pprint[K[K[K[K[K[K{ print to ta;[Kl/count }' United_States.txt
+> ^C
+bash-4.4$ usa_mean=$(awk '{ total += $1; count++} END { print tottal/count }' United_States.txt[A[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[Cmean_us=$(awk '{ total += $1; count++ } END { print tottal/count }' Subscribers/United_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[1PUnited_States.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PUnited_States.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PUnited_States.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PUnited_States.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ echo "#[K#[K$mean_us" > United_States [K_mean.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   United_States.txt
+ India.txt			  United_States_mean.txt
+bash-4.4$ cat United_States_mean.txt 
+2.30897e+07
+bash-4.4$ cat United_States_mean.txt [C[C[C[C[C[C[C[C[C[Cls[Kecho "$mean_us" > United_States_mean.txt[C[C[C[C[C[C[C[C[C[Cmean_us=$(awk '{ total += $1; count++ } END { print tottal/count }' United_States.txt)[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=$(awk '{ total += $1; count++ } END { print tota[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=$(awk '{ total += $1; count++ } END { print total[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci=$(awk '{ total += $1; count++ } END { print tota[1@l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn=$(awk '{ total += $1; count++ } END { print tot[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd=$(awk '{ total += $1; count++ } END { print to[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci=$(awk '{ total += $1; count++ } END { print t[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca=$(awk '{ total += $1; count++ } END { print [1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt)[1P.txt) .txt)I.txt)n.txt)d.txt)i.txt)a.txt)
+bash-4.4$ echo "$mean_india" > india_mean.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   United_States_mean.txt
+ India.txt			  india_mean.txt
+ United_States.txt
+bash-4.4$ cd[Kat india_mean.txt 
+25596000
+bash-4.4$ exit
+
+Script done on 2024-04-10 15:26:44-04:00

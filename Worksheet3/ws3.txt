@@ -1,5 +1,5 @@
 Task 1: I ended up trying to use awk to sort the list. I did it properly but could not figure out how to sort by top 3 in each country. Below is just a list
-of USA, India, and UK top earners. The top 3 earners from each country were DaFuq?!Boom!, T-Series, and Woddy & Kleiny
+of USA, India, and UK top earners. The top 3 earners from each country were DaFuq?!Boom!, T-Series, and Woddy & Kleiny. The top USA and India earners are at the top of the list, but because the UK top earner was far below US and India, I had to find it. It is included in this file.
 Output:
 USA : DaFuq!?Boom!, $9200000
 India: T-Series, $9000000
@@ -36,10 +36,9 @@ USA : Taylor Swift, $2100000
 India: YRF, $2000000
 USA : Jake Fellman, $2000000
 UK : Woody & Kleiny, $2000000
+...
 
 Task 2:
-
-
 For some reason, there was no output. I couldn't figure out the issue with my script:
 
 awk -F ',' 'NR>1 && ($6=="Sports" || $6=="Education" || $6=="Entertainment") {print $0}' 'Global YouTube Statistics.csv' | sort -t ',' -nrk 3 | awk -F ',' '{if ($6=="Sports") {print "Sports : " $2 ", #" $3} else if ($6=="Education") {print "Education : " $2 ", #" $3} else if ($6=="Entertainment") {print "Entertainment: " $2 ", #" $3}}'

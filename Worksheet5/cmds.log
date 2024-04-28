@@ -1,0 +1,75 @@
+    1  mkdir Worksheet5
+    2  pwd
+    3  cd Worksheet5
+    4  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+    5  ls
+    6  mkdir UnitedStates
+    7  touch ws5.txt
+    8  ls
+    9  nano script.sh
+   10  ls
+   11  chmod +x script.sh
+   12  ./script.sh
+   13  cd UnitedStates/
+   14  touch Gaming.txt
+   15  tough Music.txt
+   16  touch Music.txt
+   17  touch Entertainment.txt
+   18  touch Comedy.txt
+   19  ls
+   20  cd ..
+   21  nano script.sh 
+   22  ./script.sh
+   23  nano script.sh 
+   24  ./script.sh
+   25  ls
+   26  ./script.sh
+   27  nano script.sh 
+   28  ./script.sh
+   29  cd UnitedStates/
+   30  ls
+   31  head Comedy.txt
+   32  nano Comedy.txt 
+   33  nano Entertainment.txt 
+   34  cd ..
+   35  ls
+   36  nano script.sh
+   37  head Global\ YouTube\ Statistics.csv
+   38  nano script.sh
+   39  ./script.sh
+   40  nano script.sh
+   41  ./script.sh
+   42  nano script.sh
+   43  ./script.sh
+   44  nano script.sh
+   45  ./script.sh
+   46  nano script.sh
+   47  ./script.sh
+   48  ls
+   49  cd UnitedStates/
+   50  ls
+   51  cat Comedy.txt
+   52  cd ..
+   53  mkdir cmds.log
+   54  history > cmds.log
+   55  rmdir cmds.log
+   56  touch cmds.log
+   57  history > cmds.log
+   58  ls
+   59  cat cmds.log
+   60  ls
+   61  cd UnitedStates
+   62  ls
+   63  wc -l Comedy.txt > ../ws5.txt
+   64  cd ..
+   65  nano ws5.txt
+   66  cd UnitedStates/
+   67  cat Comedy.txt 
+   68  ls
+   69  wc -l Music.txt >> ../ws5.txt
+   70  wc -l Entertainment.txt >> ../ws5.txt
+   71  wc -l Gaming.txt >> ../ws5.txt 
+   72  cd ..
+   73  history >> cmds.log
+   74  history
+   75  history > cmds.log
